@@ -1,7 +1,7 @@
-#title, #subtitle {
+#title, #countdown {
     text-align: center;
     color: #FFFFFF;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Michroma', sans-serif;
 }
 
 #title {
@@ -9,11 +9,34 @@
     margin: 0px;
     white-space: nowrap;
     font-size: 2em;
+    color: #d93313;
 }
 
-#subtitle {
-    text-transform: lowercase;
-    margin: 0px;
-    white-space: nowrap;
-    font-size: 1.4em;
+#countdown {
+    display: flex;
+}
+
+#countdown .box {
+    flex: 1;
+    width: 25%;
+}
+
+#countdown .box .seconds,
+#countdown .box .minutes,
+#countdown .box .hours,
+#countdown .box .days,
+#countdown .box .seconds-label,
+#countdown .box .minutes-label, 
+#countdown .box .hours-label, 
+#countdown .box .days-label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.75em
+} 
+
+#countdown .box .seconds,
+#countdown .box .minutes,
+#countdown .box .hours,
+#countdown .box .days {
+    font-size: 2em;
 }

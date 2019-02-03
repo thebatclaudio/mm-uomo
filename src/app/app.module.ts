@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ParticlesModule } from 'angular-particle';
+import { CountdownModule } from 'ngx-countdown';
 
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
@@ -31,7 +32,8 @@ const appRoutes: Routes = [
       { enableTracing: false } // <-- debugging purposes only
     ),
     BrowserModule,
-    ParticlesModule
+    ParticlesModule,
+    CountdownModule
   ],
   providers: [],
   bootstrap: [AppComponent]

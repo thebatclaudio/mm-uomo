@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as moment from 'moment';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  private timeLeft;
+
+  constructor() {
+    this.timeLeft = parseInt(moment('2019-03-08 00:00:00').format('X')) - parseInt(moment().format('X'));
+  }
 
   ngOnInit() {
   }

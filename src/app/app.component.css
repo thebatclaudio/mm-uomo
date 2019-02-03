@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Aldrich');
+@import url('https://fonts.googleapis.com/css?family=Michroma');
 
 a:link, a:hover, a:visited, a:active {
     text-decoration: none;
@@ -7,7 +7,7 @@ a:link, a:hover, a:visited, a:active {
 #logo-container {
     display: block;
     position: fixed;
-    background-color: #212121;
+    background-color: #000000;
     height: 50px;
     top: 20px;
     left: 70px;
@@ -15,9 +15,9 @@ a:link, a:hover, a:visited, a:active {
 }
 
 #logo {
-    font-family: 'Aldrich', sans-serif;
+    font-family: 'Michroma', sans-serif;
     color: #FFF;
-    font-size: 25px;
+    font-size: 32px;
     margin: 12.5px 20px;
     padding: 0px;
 } 

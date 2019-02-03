@@ -23,20 +23,20 @@ export class AppComponent {
       'left': 0,
       'right': 0,
       'bottom': 0,
-      'background-color': '#212121'
+      'background-color': '#000000'
     };
 
     this.myParams = {
       "particles": {
         "number": {
-          "value": 50,
+          "value": 140,
           "density": {
             "enable": true,
-            "value_area": 630
+            "value_area": 480
           }
         },
         "color": {
-          "value": "#e86f6f"
+          "value": "#e82f2f"
         },
         "shape": {
           "type": "circle",
@@ -76,14 +76,14 @@ export class AppComponent {
         "line_linked": {
           "enable": false,
           "distance": 150,
-          "color": "#ffffff",
-          "opacity": 0.4,
+          "color": "#EE0000",
+          "opacity": 0.1,
           "width": 1
         },
         "move": {
           "enable": true,
           "speed": 1,
-          "direction": "top-right",
+          "direction": "top",
           "random": false,
           "straight": false,
           "out_mode": "out",
@@ -100,7 +100,7 @@ export class AppComponent {
         "events": {
           "onhover": {
             "enable": false,
-            "mode": "repulse"
+            "mode": "grab"
           },
           "onclick": {
             "enable": false,
@@ -110,9 +110,9 @@ export class AppComponent {
         },
         "modes": {
           "grab": {
-            "distance": 400,
+            "distance": 200,
             "line_linked": {
-              "opacity": 1
+              "opacity": 0.1
             }
           },
           "bubble": {
@@ -123,7 +123,7 @@ export class AppComponent {
             "speed": 3
           },
           "repulse": {
-            "distance": 200,
+            "distance": 100,
             "duration": 0.4
           },
           "push": {

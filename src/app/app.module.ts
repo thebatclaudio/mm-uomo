@@ -7,14 +7,11 @@ import { CountdownModule } from 'ngx-countdown';
 
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { AboutMeComponent } from './about-me/about-me.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { MenuComponentComponent } from './menu-component/menu-component.component';
 
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'about-me', component: AboutMeComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 
@@ -22,9 +19,7 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutMeComponent,
     PageNotFoundComponent,
-    MenuComponentComponent
   ],
   imports: [
     RouterModule.forRoot(

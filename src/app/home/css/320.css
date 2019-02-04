@@ -1,4 +1,4 @@
-#title, #countdown {
+#title, #countdown, #artist-name {
     text-align: center;
     color: #FFFFFF;
     font-family: 'Michroma', sans-serif;
@@ -8,8 +8,16 @@
     text-transform: uppercase;
     margin: 0px;
     white-space: nowrap;
-    font-size: 2em;
+    font-size: 3.6em;
     color: #d93313;
+}
+
+#artist-name {
+    text-transform: uppercase;
+    margin: 0px;
+    white-space: nowrap;
+    font-size: 1em;
+    color: #FFFFFF;
 }
 
 #countdown {
@@ -31,7 +39,7 @@
 #countdown .box .days-label {
     display: block;
     text-transform: uppercase;
-    font-size: 0.75em
+    font-size: 0.5em
 } 
 
 #countdown .box .seconds,

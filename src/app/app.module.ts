@@ -39,5 +39,3 @@ const appRoutes: Routes = [
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
-// Import ParticlesModule
